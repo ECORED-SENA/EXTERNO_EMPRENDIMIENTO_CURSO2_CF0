@@ -34,7 +34,7 @@
         a.boton.row.h-100.px-3.box-shadow.rounded-15.py-3.bg-blanco(href="#competencia")
           figure.px-4.px-xl-3.d-none.d-md-flex
             img(src='@/assets/template/tema-0-4.svg', alt='Texto que describa la imagen').px-5.px-xl-3
-          .h4.text-center.px-0.text-small.px-3.mt-2 ¿Cuál es la comptenecia?
+          .h4.text-center.px-0.text-small.px-3.mt-2 ¿Cuál es la competencia?
       .col-6.col-md-4.col-xl-2.px-4.px-xl-3.mt-3.mt-xl-0
         a.boton.row.h-100.px-3.box-shadow.rounded-15.py-3.bg-blanco(href="#metodologia")
           figure.px-4.px-xl-3.d-none.d-md-flex
@@ -52,14 +52,14 @@
           .h4.text-center.px-0.text-small.px-3.mt-2.pb-xl-0 ¿Qué requisitos debo cumplir?
     .row.mt-5#navegar.mx-0
       .col-8.col-md-5.col-lg-4.col-xl-3.bg-azul-oscuro.py-2.align-self-center
-        .h4.text-white Como navegar este MOOC?
+        .h4.text-white ¿Cómo navegar este MOOC?
       a.col-2.mt-4.offset-5.offset-lg-6.offset-xl-7(href="#inicio")
         figure.px-1.px-lg-2.px-xl-2
           img(src='@/assets/template/arrow.svg').px-1.px-lg-4.px-xl-5
       p.mt-4 Visualiza el video de introducción de navegación del MOOC
       figure.mt-4
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/X40s2LFASXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mt-5#dirigido.mx-0.border-top-gris
       .col-10.col-lg-8.col-xl-7.bg-azul-oscuro.py-2.mt-4.align-self-center
         .h4.text-white ¿A quién va dirigido este MOOC y qué saberes previos requiere?
@@ -87,7 +87,7 @@
       .col.col-lg-8
         .h4 Competencia
         p.mt-4 Promueve el emprendimiento juvenil y la cultura emprendedora de acuerdo a las habilidades y competencias personales que favorezcan la toma de decisiones y la aplicación de técnicas de negociación.
-        .h4.mt-5 Proposito
+        .h4.mt-5 Propósitos
         ul.lista-ul.mt-3
           li.mt-2
             i.fas.fa-angle-right
@@ -219,7 +219,7 @@
       a.col-2.mt-4.offset-lg-3.offset-xl-4(href="#inicio")
         figure.px-lg-2.px-xl-1
           img(src='@/assets/template/arrow.svg').px-lg-4.px-xl-5
-    p.mt-5 En este MOOC se Para obtener el certificado del curso deberás alcanzar un mínimo de 70 puntos de los 100 posibles. El puntaje lo obtienes al completar las siguientes actividades: las siguientes metodologías de trabajo:
+    p.mt-5 Para obtener el certificado del curso deberás alcanzar un mínimo de 70 puntos de los 100 posibles. El puntaje lo obtienes al completar las siguientes actividades:
     .row.mt-5.d-none.d-lg-flex(data-aos="fade-right")
       .col-3
         .row.mt-5.px-4
@@ -227,13 +227,13 @@
             figure.px-5.mt-n5.d-none.d-xl-flex
               img(src='@/assets/template/tema-0-23.svg', alt='Texto que describa la imagen').px-3
             .h4.mt-4.mt-xl-3 Fase 1
-            p.mt-3.mb-5.px-3 Infografía de las competencias emprendedoras dentro del contexto de oportunidades. - #[strong 10 puntos]
+            p.mt-3.mb-5.px-3 Audio de presentación de tu idea de negocio. #[br] #[strong 10 puntos]
         .row.mt-5.px-4
           .col-12.text-center.rounded-20.box-shadow.px-1.mt-5
             figure.px-5.mt-n5.d-none.d-xl-flex
               img(src='@/assets/template/tema-0-23.svg', alt='Texto que describa la imagen').px-3
             .h4.mt-4.mt-xl-3 Fase 2
-            p.mt-3.mb-5.px-3 Publicación de un reel en Instagram de tu idea de negocio – #[strong 10 puntos]
+            p.mt-3.mb-5.px-3 Imagen de la Matriz DOFA de tu emprendimiento. #[br] #[strong 10 puntos]
 
       .col-6
         figure.d-none.d-md-flex
@@ -244,13 +244,13 @@
             figure.px-5.mt-n5.d-none.d-xl-flex
               img(src='@/assets/template/tema-0-23.svg', alt='Texto que describa la imagen').px-3
             .h4.mt-4.mt-xl-3 Fase 3
-            p.mt-3.mb-5.px-3 Canvas de tu idea de negocio con la integración de herramientas digitales –  #[strong 10 puntos]
+            p.mt-3.mb-5.px-3 Cuadro de tu estrategia de emprendimiento. #[br]  #[strong 10 puntos]
         .row.mt-5.px-4
           .col-12.text-center.rounded-20.box-shadow.px-1.mt-5.pb-4
             figure.px-5.mt-n5.d-none.d-xl-flex
               img(src='@/assets/template/tema-0-23.svg', alt='Texto que describa la imagen').px-3
             .h4.mt-4.mt-xl-3 Fase 4
-            p.mt-3.mb-5.px-3 Elevator Pitch de tu idea de negocio – #[strong 70 puntos]
+            p.mt-3.mb-5.px-3 Presentación del plan de acción de tu emprendimiento. #[br] #[strong 70 puntos]
     
     .row.mt-4.d-flex.d-lg-none
       LineaTiempoD.color-primario
